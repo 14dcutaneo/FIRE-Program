@@ -1,0 +1,430 @@
+Student at public or private university	9th grade high school	18	Yes	Yes
+Added Frame Fabrication  , 0,	00:14
+Moved Frame Fabrication  , 122,	00:16
+Moved Frame Fabrication  , 49,	00:17
+Moved Frame Fabrication  , 15,	00:20
+Moved Frame Fabrication  , 10,	00:21
+Moved Frame Fabrication  , 7,	00:23
+Moved Frame Fabrication  , 83,	00:23
+Moved Frame Fabrication  , 0,	00:24
+Moved Frame Fabrication  , 79,	00:24
+Moved Frame Fabrication  , 112,	00:25
+Moved Frame Fabrication  , 42,	00:26
+Moved Frame Fabrication  , 113,	00:26
+Moved Frame Fabrication  , 129,	00:27
+Moved Frame Fabrication  , 61,	00:27
+Moved Frame Fabrication  , 0,	00:28
+Moved Frame Fabrication  , 33,	00:29
+Moved Frame Fabrication  , 55,	00:29
+Moved Frame Fabrication  , 0,	00:30
+Moved Frame Fabrication  , 95,	00:30
+Moved Frame Fabrication  , 63,	00:31
+Moved Frame Fabrication  , 56,	00:32
+Moved Frame Fabrication  , 65,	00:32
+Moved Frame Fabrication  , 118,	00:33
+Moved Frame Fabrication  , 55,	00:33
+Moved Frame Fabrication  , 39,	00:34
+Moved Frame Fabrication  , 31,	00:34
+Moved Frame Fabrication  , 37,	00:35
+Moved Frame Fabrication  , 0,	00:35
+Moved Frame Fabrication  , 60,	00:36
+Moved Frame Fabrication  , 87,	00:36
+Moved Frame Fabrication  , 98,	00:37
+Moved Frame Fabrication  , 137,	00:38
+Moved Frame Fabrication  , 248,	00:39
+Added Frame Fabrication  , 70,	00:10
+Added Frame Fabrication  , 0,	00:21
+Moved Frame Fabrication  , 96,	00:24
+Moved Frame Fabrication  , 76,	00:24
+Moved Frame Fabrication  , 85,	00:26
+Moved Frame Fabrication  , 55,	00:27
+Total Distance: 329Moved Frame Fabrication  , 136,	:
+Added Frame Fabrication  , 0,	:
+Moved Frame Fabrication  , 4,	:
+Moved Frame Fabrication  , 2,	:
+Added Frame Fabrication  , 0,	:
+Added Frame Fabrication  , 0,	:
+Moved Frame Fabrication  , 8,	:
+Moved Frame Fabrication  , 5,	:
+Moved Frame Fabrication  , 59,	:
+Moved Frame Fabrication  , 38,	:
+Moved Frame Fabrication  , 4,	:
+Moved Frame Fabrication  , 3,	:
+Added Module Assembly  , 0,	:
+Add a label inside Frame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 inside Module Assembly 	,:
+Create module 1 inside Module Assembly 	,:
+Create module 1 inside Machine Assembly 	,:
+Create module 1 inside Machine Assembly 	,:
+Create module 1 inside Machine Assembly 	,:
+Create module 1 inside Machine Assembly 	,:
+Add a label inide Machine Assembly 	,:
+Add a label inide Machine Assembly 	,:
+Create module 2 inside Machine Assembly 	,:
+Create module 2 inside Machine Assembly 	,:
+Create module 1 insideFrame Fabrication 	,:
+Clear ALL lines and modules inside Frame Fabrication 	,:
+Clear ALL lines and modules inside Frame Fabrication 	,:
+Clear ALL lines and modules inside Frame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Clear ALL lines and modules inside Frame Fabrication 	,:
+Add a label inside Frame Fabrication 	,:
+Add a label inside Frame Fabrication 	,:
+Add a label inside Frame Fabrication 	,:
+Create module 2 insideFrame Fabrication 	,:
+Create module 2 insideFrame Fabrication 	,:
+Create module 2 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Clear ALL lines and modules inside Frame Fabrication 	,:
+Clear ALL lines and modules inside Frame Fabrication 	,:
+Clear ALL lines and modules inside Frame Fabrication 	,:
+Clear ALL lines and modules inside Frame Fabrication 	,:
+Clear ALL lines and modules inside Frame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 inside Machine Assembly 	,:
+Clear ALL lines and modules inside Machine Assembly 	,:
+Clear ALL lines and modules inside Machine Assembly 	,:
+Clear ALL lines and modules inside Machine Assembly 	,:
+Clear ALL lines and modules inside Machine Assembly 	,:
+Clear ALL lines and modules inside Machine Assembly 	,:
+Create module 1 inside Machine Assembly 	,:
+Create module 1 inside Machine Assembly 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Added Receiving Department  , 0,	:
+Moved Frame Fabrication  , 56,	:
+Moved Frame Fabrication  , 99,	:
+Moved Frame Fabrication  , 5,	:
+Moved Receiving Department  , 85,	:
+Moved Receiving Department  , 33,	:
+Moved Receiving Department  , 99,	:
+Moved Receiving Department  , 49,	:
+Moved Receiving Department  , 11,	:
+Moved Receiving Department  , 13,	:
+Moved Receiving Department  , 7,	:
+Moved Receiving Department  , 14,	:
+Moved Receiving Department  , 32,	:
+Moved Receiving Department  , 26,	:
+Moved Receiving Department  , 52,	:
+Moved Receiving Department  , 69,	:
+Moved Receiving Department  , 86,	:
+Moved Receiving Department  , 64,	:
+Moved Receiving Department  , 58,	:
+Moved Receiving Department  , 20,	:
+Moved Receiving Department  , 26,	:
+Moved Receiving Department  , 18,	:
+Moved Receiving Department  , 3,	:
+Moved Receiving Department  , 153,	:
+Moved Receiving Department  , 52,	:
+Moved Receiving Department  , 118,	:
+Moved Receiving Department  , 103,	:
+Moved Receiving Department  , 78,	:
+Moved Receiving Department  , 42,	:
+Moved Receiving Department  , 37,	:
+Moved Receiving Department  , 7,	:
+Moved Receiving Department  , 2,	:
+Moved Receiving Department  , 1,	:
+Moved Receiving Department  , 2,	:
+Moved Receiving Department  , 1,	:
+Moved Receiving Department  , 219,	:
+Moved Receiving Department  , 21,	:
+Moved Receiving Department  , 41,	:
+Moved Receiving Department  , 22,	:
+Moved Receiving Department  , 98,	:
+Moved Receiving Department  , 30,	:
+Moved Receiving Department  , 48,	:
+Moved Receiving Department  , 10,	:
+Moved Receiving Department  , 52,	:
+Moved Receiving Department  , 2,	:
+Moved Receiving Department  , 7,	:
+Moved Receiving Department  , 6,	:
+Moved Receiving Department  , 0,	:
+Moved Receiving Department  , 111,	:
+Moved Receiving Department  , 47,	:
+Moved Receiving Department  , 23,	:
+Moved Receiving Department  , 35,	:
+Moved Receiving Department  , 32,	:
+Moved Receiving Department  , 44,	:
+Moved Receiving Department  , 13,	:
+Moved Receiving Department  , 2,	:
+Moved Receiving Department  , 2,	:
+Moved Receiving Department  , 240,	:
+Moved Receiving Department  , 16,	:
+Moved Receiving Department  , 15,	:
+Moved Receiving Department  , 4,	:
+Moved Receiving Department  , 4,	:
+Moved Receiving Department  , 2,	:
+Moved Receiving Department  , 49,	:
+Moved Receiving Department  , 17,	:
+Moved Receiving Department  , 18,	:
+Moved Receiving Department  , 107,	:
+Moved Receiving Department  , 98,	:
+Moved Receiving Department  , 16,	:
+Moved Receiving Department  , 6,	:
+Moved Receiving Department  , 5,	:
+Moved Receiving Department  , 6,	:
+Moved Receiving Department  , 3,	:
+Moved Receiving Department  , 1,	:
+Moved Receiving Department  , 2,	:
+Moved Receiving Department  , 2,	:
+Added Receiving Department  , 0,	:
+Moved Receiving Department  , 3,	00:01
+Moved Receiving Department  , 2,	00:02
+Total Distance: 298Moved Frame Fabrication  , 119,	:
+Moved Frame Fabrication  , 75,	:
+Added Receiving Department  , 0,	:
+Moved Receiving Department  , 150,	:
+Moved Receiving Department  , 83,	:
+Added Frame Fabrication  , 0,	:
+Added Module Assembly  , 0,	:
+Moved Frame Fabrication  , 163,	:
+Moved Module Assembly  , 134 , :
+Added Machine Assembly  , 0,	:
+Moved Module Assembly  , 95 , :
+Moved Machine Assembly  , 165,	:
+Moved Machine Assembly  , 61,	:
+Added Paint ,	:
+Moved Machine Assembly  , 154,	:
+Moved Machine Assembly  , 128,	:
+Added Receiving Department  , 0,	:
+Moved Machine Assembly  , 141,	:
+Added Receiving Department  , 0,	:
+Moved Machine Assembly  , 112,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Added Quality Control  , 0,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Receiving Department  , 194,	:
+Moved Receiving Department  , 16,	:
+Moved Receiving Department  , 59,	:
+Moved Receiving Department  , 39,	:
+Moved Receiving Department  , 25,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Quality Control  , 199,	:
+Added Packaging  , 0,	:
+Moved Quality Control  , 222,	:
+Moved Packaging  , 202,	:
+Added Storage  , 0,	:
+Moved Packaging  , 183,	:
+Moved Storage  , 230,	:
+Moved Storage  , 130,	:
+Added Loading Department ,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Storage  , 93,	:
+Moved Storage  , 46,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Added Blank , 246,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Loading Department ,	:
+Moved Blank , 210,	:
+Moved Blank , 37,	:
+Moved Blank , 83,	:
+Moved Blank , 48,	:
+Moved Blank , 27,	:
+Add a label inside Frame Fabrication 	,:
+Clear ALL lines and modules inside Frame Fabrication 	,:
+Clear ALL lines and modules inside Frame Fabrication 	,:
+Create module 2 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 3 inside Frame Fabrication 	,:
+Create Module 4 inside Frame Fabrication 	,:
+Create module 5 inside Frame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 2 insideFrame Fabrication 	,:
+Create module 3 inside Frame Fabrication 	,:
+Create Module 4 inside Frame Fabrication 	,:
+Create module 5 inside Frame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 2 insideFrame Fabrication 	,:
+Create module 3 inside Frame Fabrication 	,:
+Create Module 4 inside Frame Fabrication 	,:
+Create module 5 inside Frame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 2 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 2 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 2 insideFrame Fabrication 	,:
+Create module 3 inside Frame Fabrication 	,:
+Create Module 4 inside Frame Fabrication 	,:
+Create module 5 inside Frame Fabrication 	,:
+Added Frame Fabrication  , 0,	01:09
+Moved Frame Fabrication  , 148,	01:16
+Moved Frame Fabrication  , 150,	00:33
+Moved Frame Fabrication  , 60,	00:37
+Moved Frame Fabrication  , 24,	00:37
+Moved Frame Fabrication  , 47,	00:38
+Added Frame Fabrication  , 0,	00:46
+Moved Frame Fabrication  , 99,	00:47
+Moved Frame Fabrication  , 117,	00:48
+Total Distance: 316Added Frame Fabrication  , 0,	00:10
+Moved Frame Fabrication  , 183,	00:11
+Total Distance: 311Moved Frame Fabrication  , 159,	00:52
+Moved Frame Fabrication  , 42,	01:02
+Total Distance: 278Moved Frame Fabrication  , 157,	00:02
+Added Frame Fabrication  , 0,	00:09
+Moved Frame Fabrication  , 25,	00:10
+Total Distance: 266Added Frame Fabrication  , 0,	:
+Added Module Assembly  , 0,	:
+Moved Frame Fabrication  , 98,	:
+Added Machine Assembly  , 0,	:
+Moved Machine Assembly  , 250,	:
+Moved Machine Assembly  , 159,	:
+Moved Machine Assembly  , 96,	:
+Moved Machine Assembly  , 28,	:
+Moved Machine Assembly  , 29,	:
+Moved Machine Assembly  , 77,	:
+Moved Machine Assembly  , 64,	:
+Moved Machine Assembly  , 31,	:
+Moved Machine Assembly  , 63,	:
+Moved Module Assembly  , 163 , :
+Moved Module Assembly  , 74 , :
+Moved Module Assembly  , 94 , :
+Moved Module Assembly  , 76 , :
+Moved Module Assembly  , 29 , :
+Moved Module Assembly  , 66 , :
+Moved Module Assembly  , 27 , :
+Added Frame Fabrication  , 98,	:
+Added Frame Fabrication  , 0,	:
+Moved Frame Fabrication  , 237,	:
+Moved Frame Fabrication  , 25,	:
+Moved Frame Fabrication  , 254,	:
+Moved Frame Fabrication  , 19,	:
+Moved Frame Fabrication  , 23,	:
+Moved Frame Fabrication  , 0,	:
+Added Frame Fabrication  , 3,	:
+Create module 1 insideFrame Fabrication 	,:
+Create module 1 insideFrame Fabrication 	,:
+Create module 2 insideFrame Fabrication 	,:
+Create module 3 inside Frame Fabrication 	,:
+Create Module 4 inside Frame Fabrication 	,:
+Added Module Assembly  , 0,	:
+Moved Module Assembly  , 140 , :
+Moved Module Assembly  , 64 , :
+Moved Module Assembly  , 79 , :
+Added Machine Assembly  , 0,	:
+Moved Module Assembly  , 85 , :
+Moved Machine Assembly  , 220,	:
+Moved Machine Assembly  , 60,	:
+Moved Machine Assembly  , 17,	:
+Moved Machine Assembly  , 56,	:
+Moved Machine Assembly  , 50,	:
+Moved Machine Assembly  , 15,	:
+Moved Machine Assembly  , 15,	:
+Moved Machine Assembly  , 11,	:
+Added Receiving Department  , 0,	:
+Added Quality Control  , 0,	:
+Added Packaging  , 0,	:
+Added Storage  , 0,	:
+Added Loading Department ,	:
+Added Paint ,	:
+Moved Frame Fabrication  , 206,	:
+Moved Module Assembly  , 94 , :
+Moved Machine Assembly  , 152,	:
+Moved Machine Assembly  , 47,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Paint ,	:
+Moved Receiving Department  , 100,	:
+Moved Receiving Department  , 60,	:
+Moved Receiving Department  , 25,	:
+Moved Quality Control  , 106,	:
+Moved Quality Control  , 27,	:
+Moved Packaging  , 235,	:
+Moved Packaging  , 22,	:
+Moved Storage  , 203,	:
+Moved Storage  , 27,	:
+Moved Storage  , 139,	:
+Moved Storage  , 37,	:
+Moved Storage  , 206,	:
+Moved Storage  , 189,	:
+Moved Frame Fabrication  , 31,	:
+Moved Frame Fabrication  , 38,	:
+Moved Frame Fabrication  , 170,	:
+Moved Frame Fabrication  , 0,	:
+Moved Frame Fabrication  , 23,	:
+Moved Frame Fabrication  , 110,	:
+Moved Frame Fabrication  , 23,	:
+Moved Frame Fabrication  , 26,	:
+Moved Module Assembly  , 47 , :
+Moved Module Assembly  , 205 , :
+Moved Module Assembly  , 86 , :
+Added Frame Fabrication  , 746,	:
+Added Frame Fabrication  , 25,	:
+Added Frame Fabrication  , 100,	:
+Added Frame Fabrication  , 125,	:
+Added Frame Fabrication  , 50,	:
+Added Frame Fabrication  , 50,	:
+Added Frame Fabrication  , 70,	:
+Added Frame Fabrication  , 212,	:
+Added Frame Fabrication  , 339,	:
+Added Frame Fabrication  , 14,	:
+Moved Module Assembly  , 189 , :
+Moved Module Assembly  , 30 , :
+Moved Module Assembly  , 2 , :
+Moved Module Assembly  , 166 , :
+Moved Module Assembly  , 39 , :
+Moved Module Assembly  , 75 , :
+Moved Module Assembly  , 41 , :
+Moved Module Assembly  , 2 , :
+Moved Module Assembly  , 1 , :
+Moved Module Assembly  , 4 , :
+Moved Module Assembly  , 100 , :
+Moved Module Assembly  , 52 , :
+Added Receiving Department  , 0,	:
+Added Frame Fabrication  , 14,	:
+Added Frame Fabrication  , 5,	:
+Added Frame Fabrication  , 0,	:
+Create module 5 inside Frame Fabrication 	,:
+Moved Module Assembly  , 37 , :
+Moved Module Assembly  , 0 , :
+11	Student at a public or private university	10th Grade	11	Yes	Yes

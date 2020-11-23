@@ -1,0 +1,8 @@
+Work Station, Raw Material Recpt. , Add, : ,(200.0,300.0)
+Work Area, Receiving Department , Add, : ,(200.0,300.0),(100.0,50.0)
+Work Station, Drying , Add, : ,(140.0,130.0)
+Work Station, Paint Prep , Add, : ,(140.0,130.0)
+Work Station, Painting , Add, : ,(140.0,130.0)
+Work Area, Painting Department , Add, : ,(140.0,130.0),(70.0,100.0)
+Work Station, Loading , Add, : ,(300.0,270.0)
+Work Area, Loading Dock , Add, : ,(300.0,270.0),(50.0,80.0)

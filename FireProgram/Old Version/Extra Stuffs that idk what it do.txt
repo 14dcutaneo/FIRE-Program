@@ -1,0 +1,288 @@
+
+# linesRWKS = {}
+
+# linesSRMWKS = {}
+# linesMMODCWKS = {}
+# linesMMACWKS = {}
+# linesFTWWKS = {}
+
+# linesPPWKS = {}
+# linesPWKS = {}
+# linesPDWKS = {}
+
+# linesIAWKS = {}
+# linesEAWKS = {}
+
+# linesWiringWKS = {}
+# linesWeldWKS = {}
+# linesICWKS = {}
+
+# linesQT = {}
+
+# linesCP = {}
+
+# linesS = {}
+
+# linesL = {}
+
+# shapesDictionary = []
+
+# shapesDictionary.append(linesRWKS)
+# shapesDictionary.append(linesSRMWKS) 
+# shapesDictionary.append(linesMMODCWKS) 
+# shapesDictionary.append(linesMMACWKS) 
+# shapesDictionary.append(linesFTWWKS) 
+# shapesDictionary.append(linesPPWKS) 
+# shapesDictionary.append(linesPWKS) 
+# shapesDictionary.append(linesPDWKS) 
+# shapesDictionary.append(linesIAWKS) 
+# shapesDictionary.append(linesEAWKS) 
+# shapesDictionary.append(linesWiringWKS)
+# shapesDictionary.append(linesWeldWKS) 
+# shapesDictionary.append(linesICWKS) 
+# shapesDictionary.append(linesQT) 
+# shapesDictionary.append(linesCP)
+# shapesDictionary.append(linesS) 
+# shapesDictionary.append(linesL) 
+# #used to compare lines to find neighbors
+# def compareLines(line1,line2):
+#     x1,y1,x2,y2 = canvas.coords(line1)
+#     x3,y3,x4,y4 = canvas.coords(line2)
+#     x1 = int(x1)
+#     y1 = int(y1)
+#     x2 = int(x2)
+#     y2 = int(y2)
+#     x3 = int(x3)
+#     y3 = int(y3)
+#     x4 = int(x4)
+#     y4 = int(y4)
+#     if((abs(x1 - x3) <= 10) and ((abs(y1 - y3) <= 10))):
+#         return True
+#     elif((abs(x1 - x4) <= 10) and ((abs(y1 - y4) <= 10))):
+#         return True
+#     elif((abs(x2 - x3) <= 10) and ((abs(y2 - y3) <= 10))):
+#         return True
+#     elif((abs(x2 - x4) <= 10) and ((abs(y2 - y4) <= 10))):
+#         return True
+#     else:
+#         return False
+# lineGroup = []
+# #function to group lines into neighbors
+# def CumulateLines():
+#     for line in lineDict:
+#         for linenum2 in lineDict:
+#             if(compareLines(line,linenum2) == True):
+#                 lineGroup.append(tuple([line,linenum2]))
+
+
+#########requirements list########
+class Chord(Frame):
+    '''Tkinter Frame with title argument'''
+
+    def __init__(self, parent, title='', *args, **kw):
+        Frame.__init__(self, parent, *args, **kw)
+        self.title = title
+#Accordion class for checklist
+class Accordion(Frame):
+    def __init__(self, parent, accordion_style=None):
+        Frame.__init__(self, parent)
+
+        # if no style dict, assign default style
+        if accordion_style:
+            self.style = accordion_style
+        else:
+            self.style = accordion_style = {
+                'title_bg': 'ghost white',
+                'title_fg': 'black',
+                'highlight': 'white smoke'
+            }
+            self.columnconfigure(0, weight=1)
+
+    def append_chords(self, chords=[]):
+        '''pass a [list] of Chords to the Accordion object'''
+
+        self.update_idletasks()
+        row = 0
+        width = max([c.winfo_reqwidth() for c in chords])
+
+        for c in chords:
+            i = PhotoImage()  # blank image to force Label to use pixel size
+            label = Label(self, text=c.title,
+                        image=i,
+                        compound='center',
+                        width=width,
+                        bg=self.style['title_bg'],
+                        fg=self.style['title_fg'],
+                        bd=2, relief='groove')
+
+            label.grid(row=row, column=0)
+            c.grid(row=row + 1, column=0, sticky='nsew')
+            c.grid_remove()
+            row += 2
+
+            label.bind('<Button-1>', lambda e,
+                                            c=c: self._click_handler(c))
+            label.bind('<Enter>', lambda e,
+                                        label=label, i=i: label.config(bg=self.style['highlight']))
+            label.bind('<Leave>', lambda e,
+                                        label=label, i=i: label.config(bg=self.style['title_bg']))
+
+    def _click_handler(self, chord):
+        if len(chord.grid_info()) == 0:
+            chord.grid()
+        else:
+            chord.grid_remove()
+#Function that creates the requirements window
+# def create_window():
+#     window = tk.Toplevel(utilFrame)  
+#     #✔
+
+#     if __name__ == '__main__':
+#         from tkinter import Entry, Button, Text
+        
+#         # create the Accordion
+#         acc = Accordion(window)
+#         # Total
+#         completed = Label(window, textvariable=totalcounter)
+#         completed.pack()
+#         # first chord, Recieving Room Req
+#         first_chord = Chord(acc, title='Receiving Room:', bg='white')
+#         #Label(first_chord, text='Along Grid Border', bg='white').pack()
+#         Label(first_chord, textvariable=recDepText, bg='white', width = 20).pack()
+
+#         # second chord, Module Assembly
+#         second_chord = Chord(acc, title='Module Assembly:', bg='white')
+#         Label(second_chord, textvariable=modAssemblyAreaText, bg='white').pack()
+#         Label(second_chord, textvariable=modAssemblyText, bg='white').pack()
+
+#         # third chord, Machine Assembly
+#         third_chord = Chord(acc, title='Machine Assembly:', bg='white')
+#         Label(third_chord, textvariable=machAssemblyAreaText, bg='white').pack()
+#         Label(third_chord, textvariable=machAssemblyText, bg='white').pack()
+
+#         # fourth chord, Paint Shop
+#         fourth_chord = Chord(acc, title='Paint Shop:', bg='white')
+#         Label(fourth_chord, textvariable=paintText, bg='white').pack()
+
+#         # fifth chord, Frame Fabrication
+#         fifth_chord = Chord(acc, title='Frame Fabrication:', bg='white')
+#         Label(fifth_chord, textvariable=frameFabAreaText, bg='white').pack()
+#         Label(fifth_chord, textvariable=frameFabText, bg='white').pack()
+
+#         # sixth chord, Quality Control
+#         sixth_chord = Chord(acc, title='Quality Control:', bg='white')
+#         Label(sixth_chord, textvariable=qualControlText, bg='white').pack()
+
+#         # seventh chord, Packaging
+#         seventh_chord = Chord(acc, title='Packaging:', bg='white')
+#         Label(seventh_chord, textvariable=packgText, bg='white').pack()
+
+#         # eighth chord, Storage
+#         eighth_chord = Chord(acc, title='Storage:', bg='white')
+#         Label(eighth_chord, textvariable=storageText, bg='white').pack()
+
+#         # ninth chord, Loading Dock
+#         ninth_chord = Chord(acc, title='Loading Dock:', bg='white')
+#         Label(ninth_chord, textvariable=loadingDepText, bg='white').pack()
+
+#         # append list of chords to Accordion instance
+#         acc.append_chords([first_chord, second_chord, third_chord, fourth_chord, fifth_chord, sixth_chord, seventh_chord, eighth_chord, ninth_chord])
+#         acc.pack(fill='both', expand=1)
+
+#         # Update Button
+#         update_button = Button(window, text='Update Checklist')#, command= update)
+#         update_button.pack()   
+#text vars
+# totalcounter = StringVar()
+# frameFabAreaText = StringVar()
+# frameFabText = StringVar()
+# modAssemblyAreaText = StringVar()
+# modAssemblyText = StringVar()
+# machAssemblyAreaText = StringVar()
+# machAssemblyText = StringVar()
+# paintText = StringVar()
+# recDepText = StringVar()
+# qualControlText = StringVar()
+# packgText = StringVar()
+# storageText = StringVar()
+# loadingDepText = StringVar()
+
+
+# def update(): #updates the checklist
+#     counter = 0
+#     ChecklistArr = [0,0,0,0,0,0,0,0,0,0,0,0]
+#     with open('checklist data.txt', 'a') as the_file:
+#             the_file.write(TimeEntry1.get() + ":" + TimeEntry2.get() +"\n")
+
+
+
+#Function to place down lines
+global lineDict
+lineDict = []
+linex1 = -1
+liney1 = -1
+linex2 = -1
+liney2 = -1
+#grabs first point
+def point1(event):
+   global linex1,liney1
+   linex1 = int(event.x)
+   liney1 = int(event.y)
+   print("a")
+#grabs second point
+def point2(event):
+   global linex2,liney2
+   linex2 = int(event.x)
+   liney2 = int(event.y)
+   placeLine()
+   print("b")
+#places line down
+#note this does not save the line in the converted values
+def placeLine():
+    global linex2,liney2,linex1,liney1
+    print("placing")
+    if(linex1 != -1 and liney1 != -1 and linex2 != -1 and liney2 != -1):
+        if(abs(linex1 - linex2) < abs(liney1 - liney2)):
+            lineDict.append(canvas.create_line(linex1,liney1,linex1,liney2,width=15, arrow=LAST))
+        else:
+            lineDict.append(canvas.create_line(linex1,liney1,linex2,liney1,width=15, arrow=LAST))
+        linex1 = -1
+        liney1 = -1
+        linex2 = -1
+        liney2 = -1
+#used to delete a line 
+def deleteLine(event):
+    pointerx = int(event.x)#grabs the mouses x
+    pointery = int(event.y)#grabs the mouses y
+    for z in lineDict: #checks each existing line placed 
+        x1,y1,x2,y2 = canvas.coords(z) #grabs coordinates of lines
+        if(((abs(pointerx - x1) <= 10) or (abs(pointerx - x2) <=10)) and ((abs(pointery - y1) <= 10) or (abs(pointery - y2) <= 10))): #checks end values of 
+            canvas.delete(z) #deletes the line 
+            lineDict.remove(z) #deletes the line from the array
+#this function displays the distance of the line
+def getDistance(event):
+    pointerx = int(event.x)#grabs the mouses x
+    pointery = int(event.y)#grabs the mouses y
+    for z in lineDict: #checks each existing line placed 
+        x1,y1,x2,y2 = canvas.coords(z) #grabs coordinates of lines
+        if(((abs(pointerx - x1) <= 10) or (abs(pointerx - x2) <=10)) and ((abs(pointery - y1) <= 10) or (abs(pointery - y2) <= 10))): #checks end values of 
+            distance = (sqrt(((int(x2)-int(x1))**2) + ((int(y2)-int(y1))**2)))/2
+            messagebox.showinfo("Path Distance", str(distance )+ " ft.")
+            #wrtie to activity file
+#this prints the total distance on the activity log
+def getDistance1():
+    overallDist = 0
+    for z in lineDict: #checks each existing line placed 
+        x1,y1,x2,y2 = canvas.coords(z) #grabs coordinates of lines
+        distance = (sqrt(((int(x2)-int(x1))**2) + ((int(y2)-int(y1))**2)))/2
+        overallDist += distance
+        with open('Data/activity log.txt', 'a') as the_file:
+            the_file.write("End Time: " + TimeEntry1.get() + ":" + TimeEntry2.get() + " ")
+            the_file.write("End Distance: " + str(overallDist) + "ft" + "\n")
+def getDistance2():
+    overallDist = 0
+    for z in lineDict: #checks each existing line placed 
+        x1,y1,x2,y2 = canvas.coords(z) #grabs coordinates of lines
+        distance = (sqrt(((int(x2)-int(x1))**2) + ((int(y2)-int(y1))**2)))/2
+        overallDist += distance
+    messagebox.showinfo("Total Distance", str(overallDist) + " ft.")    
